@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+
+nav h1{
+    font-size: 2.5vw;
+}
+
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    margin-right: 0.5vw;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+a:hover{
+    text-shadow: 2px 2px 3px rgba(166, 166, 166, 0.7);
+}
+
+nav button{
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid black;
+    background-color: transparent;    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.center{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    padding: 3.5vw;
+}
+
+.center-part-1{
+    height: 100%;
+    width: 45%;
+}
+
+.center-part-1 h1{
+    font-size: 5.5vw;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.center-part-1 p{
+    font-size: 1.5vw;
+    width: 73%;
+    margin-top: 1vw;
+}
+
+.center-part-1 button{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.center-part-2{
+    height: 100%;
+    width: 55%;
+}
+
+.center-part-2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.sectionBottom1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1vw 5vw;
+}
+
+.sectionBottom1 img{
+    height: 3vw;
+    filter: saturate(0%) brightness(0);
+}
+
+.section2 .services{
+    padding: 2vw 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5vw;
+    margin-top: 3vw;
+}
+
+.services h3{
+    background-color: #b9ff66;
+    font-weight: 500;
+    padding: 0.5vw 0.5vw;
+    font-size: 2vw;
+    border-radius: 0.3vw;
+}
+
+.services p{
+    width: 40%;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    padding: 1vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-shrink: 0;
+    height: 18vw;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 2vw;
+    box-shadow: 0px 8px 0px black;
+    display: flex;
+}
+
+.card-part-1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.card-part-1 h2{
+    width: 78%;
+    background-color: #b9ff66;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+}
+
+.card-part-1 a{
+    text-decoration: none;
+}
+
+.card-part-2{
+    height: 100%;
+    width: 50%;
+}
+
+.card-part-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 2vw;
+}
+
+.card-part-1 a{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #111;
+    gap: 0.5vw;
+}
+
+.card-part-1 a i{
+    padding: 0.5vw;
+    background-color: #111;
+    color: white;
+    border-radius: 50%;
+}
+
+.black{
+    background-color: #111;
+}
+
+.black h2{
+    background-color: white;
+}
+
+.black a{
+    color: white;
+}
+
+.black a i{
+    background-color: white;
+    color: black;
+}
